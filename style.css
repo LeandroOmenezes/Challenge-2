@@ -15,43 +15,6 @@
     width: 100%;
     height: auto;
   }
-  .footer{
-    position: relative;
-    text-align: center;
-    bottom: 0;
-    background-color: #E5E5E5;
-    margin-top: -2%;
-    font-size: 15px;
-    
-  }
-  
-  footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 4vh;
-    gap: 1rem;
-    color: #0A3871;
-  }
-
-  footer div {
-    display: flex;
-    gap: 1rem;
-    align-items: center
-  }
-
-  footer div::before{
-    content: '|';
-  }
-
-  footer span {
-    color: #0A3871;
-    font-weight: bold;
-  }
-
-  footer img {
-    width: 1.5rem;
-  }
 
   /* Header */
   .logo-header{
@@ -203,4 +166,42 @@
   }
   .normal{
     color: black;
+  }
+
+  .footer{
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    background-color: #E5E5E5;
+    margin-top: -2%;
+    font-size: 15px;
+    
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+    gap: 1rem;
+    color: #0A3871;
+  }
+
+  footer div {
+    display: flex;
+    gap: 1rem;
+    align-items: center
+  }
+
+  footer div::before{
+    content: '|';
+  }
+
+  footer span {
+    color: #0A3871;
+    font-weight: bold;
+  }
+
+  footer img {
+    width: 1.5rem;
   }
